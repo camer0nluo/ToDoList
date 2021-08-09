@@ -14,7 +14,7 @@ const TodoForm = ({ saveTodo }) => {
         >
             <TextField
                 variant="outlined"
-                placeholder="Add todo"
+                placeholder="Enter a task.."
                 margin="normal"
                 onChange={(event) => {
                     setValue(event.target.value);
